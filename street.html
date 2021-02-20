@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Street</title>
+    <style>
+        body {
+            background-color: #223;
+        }
+        .house {
+            height: 150px;
+            width: 100px;
+            display: inline-block;
+        }
+        .building-tall{
+            display: inline-block;
+            height: 300px;
+            width: 100px;
+            background-color: beige;
+            margin-left: 30px;
+            margin-bottom: -8px;
+        }
+        .cloud {
+            width: 50px;
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 20px;
+            padding-top: 30px;
+        }
+        .building-small {
+            width: 200px;
+            height: 123px;
+            background-color: #fff;
+            display: inline-block;
+            transform: translateY(8px);
+        }
+        .house-roof {
+            height: 0px;
+            width: 0px; 
+            border: 50px solid white;
+            border-top-width: 0px;
+            border-bottom-color: brown;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-width: 70px;
+        }
+        .house-wall {
+            background-color: antiquewhite;
+            height: 80px;
+        }
+        .house-window {
+            width: 30px;
+            height: 30px;
+            border: 2px solid brown;
+            transform: translateX(33px) translateY(23px);
+        }
+        .section-1 {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background-color: blue;
+        }
+        .section-2 {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background-color: blue;
+            transform: translateY(-2px);
+        }
+        .section-3 {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background-color: blue;
+            transform: translateX(16px) translateY(-36px);
+        }
+        .section-4 {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background-color: blue;
+            transform: translateX(16px) translateY(-38px);
+        }
+        .t-window {
+            width: 30px;
+            height: 30px;
+            background-color: gray;
+            margin-left: 35px;
+            margin-top: 23px;
+        }
+        .door {
+            width: 32px;
+            height: 40px;
+            background-color: olive;
+            transform: translateX(84px) translateY(2px);
+            display: inline-block;
+        }
+        .s-window {
+            width: 15px;
+            height: 15px;
+            background-color: cyan;
+            margin: 5px;
+            display: inline-block;
+        }
+        .window-space {
+            display: inline-block;
+            height: 15px;
+            width: 82px;
+        }
+        .name {
+            text-align: center;
+            text-decoration: underline;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="street">
+        <div class="house">
+            <div class="house-roof">
+
+            </div>
+            <div class="house-wall">
+                <div class="house-window">
+                    <div class="section-1"></div>
+                    <div class="section-2"></div>
+                    <div class="section-3"></div>
+                    <div class="section-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="building-tall">
+            <div class="t-window"></div>
+            <div class="t-window"></div>
+            <div class="t-window"></div>
+            <div class="t-window"></div>
+            <div class="t-window"></div>
+        </div>
+
+        <div class="cloud">
+            <img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-12/48/cloud-icon.png" alt="cloud">
+        </div>
+
+        <div class="building-small">
+            <div class="name">Liceum</div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+            <div class="window-space"></div>
+            <div class="s-window"></div>
+            <div class="s-window"></div>
+
+            <br>
+            <div class="door"></div>
+        </div>
+    </div>
+
+</body>
+</html>
